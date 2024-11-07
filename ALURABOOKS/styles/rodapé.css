@@ -1,0 +1,40 @@
+. rodap é {
+    cor de fundo :  var ( --branco );
+    preenchimento :  1 em ;
+}
+
+. lista-rodap é {
+    exibição : nenhuma;
+}
+
+
+@media screen e ( min-width :  1024 px ) {
+    . rodap é {
+        exibição : flexível;
+        justify-content : espaço ao redor;
+    }
+
+    . lista-rodap é {
+        exibir : bloco;
+    }
+
+    . lista-rodap é __item {
+        exibição : flexível;
+        alinhar-itens : centro;
+        margem :  0,6 em  0 ;
+    }
+
+    . lista-rodap é __link {
+        cor :  var ( --cinza );
+        decoração de texto : nenhuma;
+        margem esquerda :  0,6 em ;
+    }
+
+    . lista-rodap é __titulo {
+        tamanho da fonte :  14 px ;
+        cor :  var ( -cinza-claro );
+    }
+
+    . rodap é __titulo {
+        tamanho da fonte :  24 px ;
+    }
